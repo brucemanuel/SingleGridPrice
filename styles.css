@@ -1,0 +1,187 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+    width: 80%;
+   
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+   color: hsl(71, 73%, 54%);
+   font-size: 20px;
+}
+
+p {
+    color: white;
+}
+
+.top-container {
+  margin: 50px 50px 60px 50px;
+
+}
+
+.bottom-container {
+    height: 50vh;
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    height: 400px;
+  
+}
+
+.bottom-left {
+    background-color: hsl(179, 70%, 35%);
+    height: 400px;
+    width: 700px;
+
+}
+
+.bottomLeftText {
+    margin: 50px;
+}
+
+.bottomRightText {
+    margin: 55px 50px 60px 90px;
+    width: 40%;
+    line-height: 2;
+}
+
+.bottom-right {
+    background-color: hsl(179, 62%, 43%);
+    height: 400px;
+    width: 700px;
+}
+
+.monthly-amount {
+    color: white;
+    font-size: 3em;
+}
+
+.topContainerParagraph {
+   color: hsl(218, 22%, 67%);
+   width: 65%;
+   font-size: 1.3rem;
+   line-height: 1.5;
+}
+
+.perMonth {
+    color: hsl(204, 43%, 93%);
+}
+
+button {
+    height: 50px;
+    width: 350px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+}
+
+.button {
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    font-weight: 700s;
+    letter-spacing: 2px;
+    position: relative;
+    left: 40px;
+}
+
+.monthly-text {
+    margin: 70px 0 0 40px;
+}
+
+.full-access {
+    letter-spacing: 1px;
+    font-size: 18px;
+} 
+
+footer > p {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 860px) {
+   body {
+       height: 300vh;
+       width: 860px;
+   }
+
+   h1 {
+       font-size: 60px;
+   }
+
+   h4 {
+       font-size: 40px;
+   }
+
+.topContainerParagraph {
+    font-size: 2rem;
+    width: 80%;
+}
+
+.bottom-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1200px;
+}
+
+.bottom-left, .bottom-right{
+    height: 600px;
+    width: 860px;
+}
+
+.bottomLeftText {
+    font-size: 2rem;
+}
+
+.button {
+    width: 600px;
+    height: 80px;
+    position: relative;
+    left: 75px;
+    font-size: 2rem;
+    border-radius: 18px;
+}
+
+.monthly-text {
+    margin: 90px 0 30px 70px;
+}
+
+.full-access {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.bottomRightText {
+    font-size: 2rem;
+    width: 60%;
+    line-height: 2;
+    margin: 70px 0 30px 130px;
+}
+
+.attribution {
+    font-size: 2rem;
+}
+
+.top-container {
+    margin: 50px 50px 60px 110px;
+}
+
+}
